@@ -269,7 +269,7 @@ def ytmusic_sanity_check(filepath="browser.json"):
     print("Please follow the official setup process to create the file.")
     print("1. Install ytmusicapi if you haven't: pip install ytmusicapi")
     print("2. Run the command to start the interactive setup:")
-    print("   ytmusicapi browser -i")
+    print("   ytmusicapi browser")
     print("3. Copy the resulting JSON file into your script's directory.")
         
     sys.exit(1)
